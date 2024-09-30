@@ -14,7 +14,14 @@ public class Odemo10 {
 		System.out.println(x);
 		System.out.println(x.i);
 		System.out.println(x.j);
- 
+        d1.getA(2);
+        System.out.println(x);
+        System.out.println(x.i);
+        System.out.println(x.j);
+        x = d1.getA(2);
+        System.out.println(x);
+        System.out.println(x.i);
+        System.out.println(x.j);
 	}
 
 }
